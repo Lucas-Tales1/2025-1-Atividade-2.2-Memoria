@@ -96,8 +96,6 @@ Os alunos devem simular a alocação dos processos na RAM usando o algoritmo **b
 
 ### 2. Simular Memória Virtual (Paginação)
 
----
-
 **Tabela de páginas:**
 
 | Processo | Localização | Páginas na RAM | Páginas no Disco |
@@ -110,11 +108,7 @@ Os alunos devem simular a alocação dos processos na RAM usando o algoritmo **b
 
 *(Assumindo paginação de 4 KB/página)*
 
----
-
 ### 3. Desfragmentação da RAM
-
----
 
 **Antes da desfragmentação:**  
 [0–19] → P1
@@ -129,8 +123,6 @@ Os alunos devem simular a alocação dos processos na RAM usando o algoritmo **b
 [60–63] → Livre (4 KB)
 
 Mesmo após a compactação, ainda não há espaço suficiente para alocar P4 (10 KB) ou P5 (18 KB) sem remover algum processo para o disco.
-
----
 
  ### 4. Questões para Reflexão
 
